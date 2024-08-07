@@ -1,0 +1,8 @@
+- Home Page [ ]
+- Education Page [ ]
+- Experince Page [ ]
+- Projects Page [ ]
+- Contact Page [ ]
+- SEO [ ]
+- Navbar Layout [ ]
+- Responsive [ ]
