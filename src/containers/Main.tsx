@@ -1,11 +1,10 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/home/HomeComponent";
-import Splash from "../pages/splash/Splash";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Contact from "../pages/contact/ContactComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Contact from "../pages/contact/ContactComponent";
+import Home from "../pages/home/HomeComponent";
 import Projects from "../pages/projects/Projects";
+import Splash from "../pages/splash/Splash";
 import { settings } from "../portfolio.js";
 
 function Main(props: { theme: any; setTheme: any; }) {
@@ -15,7 +14,7 @@ function Main(props: { theme: any; setTheme: any; }) {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {settings.isSplash ? (
           <>
@@ -31,7 +30,7 @@ function Main(props: { theme: any; setTheme: any; }) {
         <Route path="/contact" element={<Contact onToggle={() => { }} {...commonProps} />} />
         <Route path="/projects" element={<Projects onToggle={() => { }} {...commonProps} />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
