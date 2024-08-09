@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.8b69e7e6.css",
+    "main.js": "/react-gh-pages/static/js/main.3b06013d.js",
+    "static/js/453.ace21015.chunk.js": "/react-gh-pages/static/js/453.ace21015.chunk.js",
+    "static/media/me (1).png": "/react-gh-pages/static/media/me (1).a8f6f5725538debc41b3.png",
+    "static/media/Montserrat-Regular.ttf": "/react-gh-pages/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/GoogleSans-Italic.ttf": "/react-gh-pages/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
+    "static/media/GoogleSans-MediumItalic.ttf": "/react-gh-pages/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
+    "static/media/GoogleSans-BoldItalic.ttf": "/react-gh-pages/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
+    "static/media/GoogleSans-Regular.ttf": "/react-gh-pages/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/react-gh-pages/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
+    "static/media/GoogleSans-Bold.ttf": "/react-gh-pages/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf",
+    "static/media/Agustina.woff": "/react-gh-pages/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/lach.jpg": "/react-gh-pages/static/media/lach.38355a422032983493e3.jpg",
+    "static/media/iset.jpg": "/react-gh-pages/static/media/iset.d056df353ed4fec33487.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.8b69e7e6.css.map": "/react-gh-pages/static/css/main.8b69e7e6.css.map",
+    "main.3b06013d.js.map": "/react-gh-pages/static/js/main.3b06013d.js.map",
+    "453.ace21015.chunk.js.map": "/react-gh-pages/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b69e7e6.css",
+    "static/js/main.3b06013d.js"
+  ]
+}
