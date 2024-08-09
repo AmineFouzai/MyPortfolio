@@ -7,7 +7,6 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
-import { Color } from "baseui/icon";
 
 function Projects(props: {
   theme: {
