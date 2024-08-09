@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import AnimatedCursor from "react-animated-cursor";
+import ReactGA from "react-ga";
+import { ThemeProvider } from "styled-components";
 import "./App.css";
 import Main from "./containers/Main";
-import { ThemeProvider } from "styled-components";
-import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import AnimatedCursor from "react-animated-cursor";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
+import { themes } from "./theme";
 
 function App() {
   useEffect(() => {
@@ -22,14 +22,14 @@ function App() {
   const useCursor = settings.useCustomCursor;
 
   return (
-    <ThemeProvider theme={theme == "dark" ? themes.dark : themes.light}>
+    <ThemeProvider theme={theme === "dark" ? themes.dark : themes.light}>
       <GlobalStyles />
       <div>
         {useCursor ? (
           <><AnimatedCursor
             innerSize={16}
             outerSize={16}
-            color={theme == "dark" ?" 230, 250, 250" :"6, 8, 8"}
+            color={theme === "dark" ?" 230, 250, 250" :"6, 8, 8"}
             outerAlpha={0.2}
             innerScale={0.7}
             outerScale={5}
@@ -49,9 +49,9 @@ function App() {
                 target: '.custom',
 
               }
-            ]} /><Main theme={theme == "dark" ? themes.dark : themes.light} setTheme={setTheme} /></>
+            ]} /><Main theme={theme === "dark" ? themes.dark : themes.light} setTheme={setTheme} /></>
         ) : (
-          <Main theme={theme == "dark" ? themes.dark : themes.light} setTheme={setTheme} />
+          <Main theme={theme === "dark" ? themes.dark : themes.light} setTheme={setTheme} />
         )}
       </div>
     </ThemeProvider>

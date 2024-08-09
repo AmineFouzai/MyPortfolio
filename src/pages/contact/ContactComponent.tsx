@@ -1,12 +1,11 @@
-import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
-import { Fade ,AttentionSeeker} from "react-awesome-reveal";
-import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import { AttentionSeeker, Fade } from "react-awesome-reveal";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import { contactPageData, greeting } from "../../portfolio.js";
+import BlogsImg from "./BlogsImg";
+import "./ContactComponent.css";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -52,7 +51,7 @@ function Contact(props: { theme: { text: any; accentBright: any; secondaryText: 
               <br />
               <br />
               <AttentionSeeker cascade duration={2000} style={{marginTop:"50px"}} effect="flash">
-              <a {...styles} target="_blank" className="general-btn" href={greeting.resumeLink}>
+              <a {...styles} target="_blank"  rel="noreferrer" className="general-btn" href={greeting.resumeLink}>
                 See my Resume
               </a>
               </AttentionSeeker>
@@ -74,7 +73,7 @@ function Contact(props: { theme: { text: any; accentBright: any; secondaryText: 
               <div className="blogsite-btn-div">
               <AttentionSeeker cascade duration={2000} style={{marginTop:"50px"}} effect="rubberBand">
 
-                <a {...styles} target="_blank" className="general-btn" href={greeting.coverLetterLink}>
+                <a {...styles} target="_blank"  rel="noreferrer" className="general-btn" href={greeting.coverLetterLink}>
                   See My Cover Letter
                 </a>
                 </AttentionSeeker>
