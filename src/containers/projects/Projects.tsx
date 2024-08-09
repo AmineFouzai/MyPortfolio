@@ -14,7 +14,7 @@ export default function Projects() {
         })}
       </div>
       <a className="resume-btn" href="https://github.com/AmineFouzai">
-        More Projects (Github)
+        View Personal Projects (Github)
       </a>
     </div>
   );

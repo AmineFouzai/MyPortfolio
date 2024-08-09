@@ -23,7 +23,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1vdLDTWgP0CLEuWD9P4HjiyfUvGSx-kpB/view?usp=sharing",
   coverLetterLink:
-    "https://drive.google.com/file/d/1NSJyalv88disa-ou0xMG-Ltq25mHQygo/view?usp=sharing",  
+    "https://drive.google.com/file/d/1NSJyalv88disa-ou0xMG-Ltq25mHQygo/view?usp=sharing",
   mail: "mailto:mohamed.amine.fouzai@gmail.com",
 };
 
@@ -33,7 +33,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/amine-fouzai/",
   gmail: "mohamed.amine.fouzai@gmail.com",
   facebook: "https://www.facebook.com/mohamedamine.fouzai.9003/",
-  twitter: "https://x.com/ine_constan",
+  twitter: "https://x.com/Fouzai_M_Amine",
 };
 
 const skills = {
@@ -158,7 +158,7 @@ const degrees = {
         "⚡ I studied subjects like Advanced Web Development, Databases, and General System Development.",
         "⚡ I implemented several projects based on what I've learned under my Computer Engineering course. ",
       ],
-      website_link:"https://isetn.rnu.tn/",
+      website_link: "https://isetn.rnu.tn/",
     },
     {
       title: "High School Atef Chayeb Hammamet Nabuel",
@@ -178,71 +178,63 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Foundation Certificate in Architecture Concepts and Domains",
+      subtitle: "BCS Foundation",
+      logo_path: "https://www.bcs.org/media/8094/black-logo-main.png?rnd=133499950958670000",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+        "#",
+      alt_name: "BCS Foundation",
       // color_code: "#2AAFED",
       color_code: "#47A048",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "mongo.png",
+      title: "Professional Software Engineering Master Certification",
+      subtitle: "IEEE Computer Society",
+      logo_path: "https://ieeecs-media.computer.org/wp-media/2018/04/02183615/IEEE-CS_LogoTM-orange.png",
       certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
+        "#",
+      alt_name: "IEEE Computer Society",
       color_code: "#E2405F",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "PCI Security Standards (PCIDSS)",
+      subtitle: "Ampcus Cyber",
+      logo_path: "https://www.ampcuscyber.com/wp-content/themes/Ampcuscyber/assets/img/ampcus-cyber-logo-red-white.png",
       certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
+        "#",
+      alt_name: "Ampcus Cyber",
       // color_code: "#F6B808",
       color_code: "#47A048",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "mongo.png",
+      title: "Certified Ethical Hacker (C|EH)",
+      subtitle: "EC-Council",
+      logo_path: "https://www.eccouncil.org/wp-content/uploads/2020/12/ec-council-white-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
+        "#",
+      alt_name: "EC-Council",
+      color_code: "#E2405F",
     },
     {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
+      title: "Certified Data Professional (CDP)",
+      subtitle: "CDMP.info",
+      logo_path: "https://cdmp.info/wp-content/uploads/elementor/thumbs/Global-Data-Management-p1j09j4ss6ii50d29k2wcfs8xlt8qaqq2bj3zrfmqu.jpg",
       certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
+        "#",
+      alt_name: "CDMP.info",
+
+      color_code: "#47A048",
     },
     {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "mongo.png",
+      title: "GIAC Open Source Intelligence Certification (GOSI)",
+      subtitle: "GIAC.org",
+      logo_path: "https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt35b018ffc64a5b93/63c71c17e97936109ef2bcaf/GOSI.png",
       certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
+        "#",
+      alt_name: "GIAC.org",
+      color_code: "#E2405F",
     },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -274,9 +266,9 @@ const experience = {
           logo_path: "https://media.licdn.com/dms/image/D4E0BAQFZqBTlpIUIrA/company-logo_200_200/0/1708704399827/cielo_costa_logo?e=1730937600&v=beta&t=zoD0y8Y0Q8b0de3YL1_wjxPABZgrsmMJPv5xzffFB1w",
           duration: "Jul 2023 - Present",
           location: "Uk,Ketton Suite, The King Centre, Oakham, Rutland LE15 7WD",
-          description: `Cielo Costa is a dynamic software firm with extensive experience in utilizing various Microsoft services and engaging in custom development. Cielo has a robust background in working with Microsoft Azure, leveraging its cloud services for scalable and secure application deployment. Additionally, they have proficiently used Microsoft Power Platform for creating business solutions, integrating Power Apps, Power Automate, and Power BI to streamline processes and enhance data analytics.
-
-In custom development, Cielo excels in building tailored solutions to meet specific client needs. This includes developing web applications, APIs, and enterprise systems using modern frameworks and programming languages. Their expertise ensures efficient, high-quality software solutions that align with business objectives and user requirements.`,
+          description: `
+          Cielo Costa is a dynamic software firm with extensive experience in Microsoft services and custom development. They use Microsoft Azure for secure application deployment and Microsoft Power Platform for business solutions. Their expertise ensures efficient, high-quality software solutions that align with business objectives and user requirements.
+          `,
           color: "#0071C5",
         },
         {
@@ -286,9 +278,7 @@ In custom development, Cielo excels in building tailored solutions to meet speci
           logo_path: "https://media.licdn.com/dms/image/D4E0BAQH1QKKj-3PHnw/company-logo_200_200/0/1694897155932?e=1730937600&v=beta&t=DLcQTLXeymz12FoBaIzAPFWZRHIn6zc-XZX3rbm2A98",
           duration: "Mar 2023 - Jun 2023",
           location: "Canada,1 Heathfield St, Whitby, ON L1R 0K9",
-          description: `I played a pivotal role in creating the data modeling and backend code for the fast food application ZenFeat. By collaborating closely with stakeholders, I translated business requirements into a robust data model, designing comprehensive database schemas to manage complex data related to menu items, orders, customers, and delivery logistics. I implemented data normalization techniques to reduce redundancy and ensure data integrity while establishing and maintaining relationships between various data entities such as customers, orders, and menu items to support diverse application functionalities.
-
-In the backend development phase, I created scalable and performant RESTful APIs to handle customer orders, manage inventory, and process payments. Using a diverse set of programming languages and frameworks, I built robust backend services tailored to each task. I seamlessly integrated third-party services like payment gateways and delivery tracking systems to enhance functionality and improve the user experience. Additionally, I developed services utilizing different networking styles, including REST, GraphQL, and gRPC, ensuring flexible and efficient data exchange. My commitment to pixel-perfect integration ensured that the backend services seamlessly aligned with frontend designs, providing a consistent and visually appealing user interface. Through these efforts, I contributed significantly to the development of a reliable, efficient, and user-friendly fast food application that meets the needs of both the business and its customers.`,
+          description: `I made significant contributions to the development of ZenFeat, a fast food application, by creating a strong data model and backend code. They worked with stakeholders to translate business requirements into a strong model, created detailed database schemas, and implemented data normalization techniques. i also developed scalable RESTful APIs, integrated third-party services, and utilized networking styles such as REST, GraphQL, and gRPC to facilitate data exchange.`,
           color: "#0071C5",
         },
         {
@@ -298,8 +288,7 @@ In the backend development phase, I created scalable and performant RESTful APIs
           logo_path: "https://media.licdn.com/dms/image/D4E03AQEkPEsDqPCm4g/profile-displayphoto-shrink_400_400/0/1641823111179?e=1728518400&v=beta&t=99KXy4hAw2UWALRi9tmXtMPh_7BHelt1Xs9atxL5Qlc",
           duration: "Dec 2021 - Mar 2023",
           location: "Tunisia,Sousse, Sousse",
-          description: `I get a lot of joy as a backend developer from overseeing the creation of back-end apps. I appreciate the chance to conduct research on apps to keep current on recent developments in the field of app development. With the help of this research-based methodology, I am able to enhance my abilities and broaden my knowledge. I'm inspired to try out proof-of-concept initiatives and carry out internal research to assess the viability and efficacy of new technologies or methods. I can deliver top-notch, effective, and cutting-edge apps that satisfy the demands of our users by fusing my technical proficiency with a research-driven attitude.
-          `,
+          description: `As a backend developer, I enjoy overseeing app creation and conducting research to stay updated on app development developments. This research-based methodology enhances my skills and knowledge, allowing me to deliver top-notch, effective, and cutting-edge apps that meet user demands.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
@@ -310,10 +299,7 @@ In the backend development phase, I created scalable and performant RESTful APIs
           logo_path: "https://media.licdn.com/dms/image/C560BAQG2XcIOmlCbgA/company-logo_200_200/0/1646862846181?e=1730937600&v=beta&t=iin8T5TaaFSqJIXeDHj52cFNf8tFtjV-_w4yjaQmFqk",
           duration: "Sep 2021 - Dec 2021",
           location: "Tunisia,Sousse, Sousse",
-          description: `The most important details of structuring databases and related programs are designing and organizing the database schema, implementing suitable indexing strategies, optimizing query performance, and ensuring data integrity and security. Designing the database schema involves analyzing the application requirements and creating a schema that accurately represents the data. Normalization techniques such as First Normal Form (1NF) and Second Normal Form (2NF) help eliminate data duplication and maintain data consistency. Optimizing queries involves utilizing techniques such as query rewriting, join optimization, and proper utilization of indexes. Ensuring data integrity and security is of utmost importance.
-
-Regular backups are established to protect against data loss or system failures. Database maintenance tasks include monitoring system performance, optimizing storage utilization, managing database growth, and applying necessary software patches.
-          `,
+          description: `Structuring databases involves designing and organizing the schema, implementing indexing strategies, optimizing query performance, and ensuring data integrity and security. Normalization techniques, query rewriting, join optimization, and index utilization are crucial. Regular backups protect against data loss, while maintenance tasks monitor performance, manage growth, and apply software patches.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
@@ -324,12 +310,7 @@ Regular backups are established to protect against data loss or system failures.
           logo_path: "https://media.licdn.com/dms/image/v2/C4E0BAQGOidJEkk7PBQ/company-logo_200_200/company-logo_200_200/0/1631361322831/astrolabtn_logo?e=1730937600&v=beta&t=jQRZmKB7dts2S1tFM3Ik4SaYkDHFoKWFwcJ3lmvblRE",
           duration: "Jan 2021 - Aug 2021",
           location: "Tunisia,3 Rue de Qairouan،, Sousse 4000",
-          description: `Maintaining a financial app and collaborating with my team to develop largely back-end apps for specific situations is an exciting and challenging part of my role.
-
-I actively contribute to the server-side components that power our financial app, designing robust databases, developing APIs, and integrating third-party services to enhance functionality and user experience. I also work on understanding the unique requirements, designing the back-end infrastructure, and implementing the necessary features to meet these specific use cases effectively. Security and privacy are paramount considerations in our financial app, and we prioritize implementing stringent security measures. 
-
-Collaboration within the team is vital for our development process, and I actively engage in discussions with designers, front-end developers, and other stakeholders to align on requirements, exchange knowledge, and seamlessly integrate our back-end solutions with the front-end components. Overall, maintaining a financial app and collaborating on back-end development allows me to contribute to the seamless functioning and continuous improvement of our app, providing users with a secure and efficient financial management experience.
-          `,
+          description: `I was a part of a team that maintains a financial app and collaborates on back-end development. They contribute to server-side components, designing robust databases, APIs, and integrating third-party services. They prioritize security and privacy, and work closely with designers and stakeholders to ensure seamless integration. This role allows for continuous improvement and a secure financial management experience.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#0071C5",
         },
@@ -340,10 +321,7 @@ Collaboration within the team is vital for our development process, and I active
           logo_path: "https://media.licdn.com/dms/image/C4E0BAQFsRau3WRWJvQ/company-logo_200_200/0/1658247716101?e=1730937600&v=beta&t=ax8x6NQctTZ1pr-NooUTN6pm6yXVrwwbjLL1i2TjKO0",
           duration: "Jan 2020 - Mar 2020",
           location: "FRANCE, 13 rue de raidillon 78230. le pecq PARIS,",
-          description: `I played a significant role in the development of the application's core backend, which was specifically designed to efficiently manage distributed events. This involved creating a robust and scalable architecture that could handle the complexities of handling events across various locations or systems.
-
-To accomplish this, I utilized a combination of programming languages, frameworks, and technologies that were best suited for the task at hand. I carefully designed the backend system to ensure seamless communication and coordination between different components, enabling smooth event management and synchronization.
-          `,
+          description: `I contributed to the development of a robust, scalable application's core backend for managing distributed events, using a combination of programming languages, frameworks, and technologies to ensure seamless communication and coordination.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
@@ -354,8 +332,7 @@ To accomplish this, I utilized a combination of programming languages, framework
           logo_path: "https://media.licdn.com/dms/image/C4D0BAQHJvltomSlPPA/company-logo_200_200/0/1630573461373/tunisie_t_l_com_logo?e=1730937600&v=beta&t=180WoSdm2rsNX326tsYsd-XrxElhC4YeJriPgHmUNys",
           duration: "Jan 2019 - Mar 2019",
           location: "CH46+63G, Avenue Yasser Arafet, Hammamet 8056",
-          description: `As an overseer of complex telecommunications systems and related broadcasting equipment for an entire city district, my role is crucial in ensuring seamless communication and efficient broadcasting services for the residents and businesses within my jurisdiction. I am responsible for monitoring the telecommunications systems and broadcasting equipment within the district, ensuring their optimal functioning and promptly addressing any issues or disruptions that may arise.
-          `,
+          description: `I oversees a city district's complex telecommunications systems and broadcasting equipment, ensuring seamless communication and efficient services for residents and businesses, monitoring and addressing any issues.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
@@ -430,7 +407,7 @@ To accomplish this, I utilized a combination of programming languages, framework
             "IEEE Summit 2020: Doors Open Days is a premier event that welcomes technology enthusiasts, professionals, students, and the general public to explore the latest advancements in engineering and technology. Hosted by the Institute of Electrical and Electronics Engineers (IEEE), this summit provides an open platform for learning, networking, and discovering cutting-edge innovations.",
           color: "#FBBD18",
         },
-      
+
       ],
     },
   ],
@@ -440,7 +417,7 @@ To accomplish this, I utilized a combination of programming languages, framework
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "With over 4 years of professional development experience, I’ve had the opportunity to contribute to a variety of projects across different companies. This are a list of some apps that i worked at during my past experience",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -466,53 +443,46 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Mockup-AI-Interview",
-      url: "https://github.com/AmineFouzai/Mockup-AI-Interview",
+      name: "C-Wallet",
+      url: "https://cwallet.qa/",
       description:
-        "Mockup-AI-Interview is a cutting-edge project designed to simulate real-life interview scenarios using AI. This tool aims to help job seekers prepare for interviews by providing realistic mock interviews, comprehensive feedback, and detailed analysis of their performance.",
+        "Cwallet is a fintech blockchain powered mobile money wallet that evolves in 3 basic principles. Payroll. Payment and Remittance.\n",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
+          name: "Vue",
+          iconifyClass: "logos-vue",
         },
         {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
+          name: "TypeScript",
+          iconifyClass: "skill-icons:typescript",
+        },
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
         },
         {
           name: "NodeJs",
           iconifyClass: "logos-nodejs",
         },
         {
-          name: "Augmented Reality",
-          iconifyClass: "bi:badge-ar",
+          name: "AWS ",
+          iconifyClass: "logos-aws",
         },
       ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url:
-            "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
-          iconifyClass: "mdi:web",
-        },
+      
       ],
     },
     {
       id: "1",
-      name: "TornGraphQl",
-      url: "https://github.com/AmineFouzai/TornGraphQl",
+      name: "Gym-Switch",
+      url: "https://apps.apple.com/us/app/gymswitch/id1659507484?platform=iphone",
       description:
-        "A Simple Python GraphQL API Built with Tornado and SQLalchemy ", languages: [
+        "Gym Switch offers the possibility of accessing all gyms in Tunisia. \n", languages: [
+          {
+            name: "Laravel",
+            iconifyClass: "logos-laravel",
+          },
           {
             name: "Flutter",
             iconifyClass: "logos-flutter",
@@ -521,256 +491,259 @@ const projects = {
             name: "NodeJs",
             iconifyClass: "logos-nodejs",
           },
+          {
+            name: "Linux",
+            iconifyClass: "devicon:linux",
+          },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Yog4Life",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
+    
       ],
     },
     {
       id: "2",
-      name: "Ballon_Dorz",
+      name: "Bitaqa",
       url: "https://github.com/AmineFouzai/Ballon_Dorz",
       description:
-        "Soccer tournaments mangment app made with django ", languages: [
+        "A simple tap ,Connections Impressive , Instantly share your social networks and contact details in a convenient and elegant way\n ", languages: [
           {
-            name: "HTML5",
-            iconifyClass: "logos-html-5",
+            name: "React",
+            iconifyClass: "logos-react",
           },
           {
-            name: "CSS3",
-            iconifyClass: "logos-css-3",
+            name: "NextJs",
+            iconifyClass: "logos-nextjs",
           },
           {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
+            name: "TypeScript",
+            iconifyClass: "skill-icons:typescript",
           },
           {
-            name: "Wix",
-            iconifyClass: "bxl:wix",
+            name: "NodeJs",
+            iconifyClass: "logos-nodejs",
+          },
+          {
+            name: "Linux",
+            iconifyClass: "devicon:linux",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Adoptisity",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-          iconifyClass: "mdi:web",
-        },
+    
       ],
     },
     {
       id: "3",
-      name: "Hospital_Project",
-      url: "https://github.com/AmineFouzai/Hospital_Project",
+      name: "Dgicasse",
+      url: "https://www.facebook.com/dgcaisse.tunisie/",
       description:
-        "hospital management system for doctors with their patients", languages: [
+        "DGCaisse offers a variety of POS options to help you bring yours, Whether you run a restaurant, sell retail products, or simply need a multi-purpose POS.\n", languages: [
           {
-            name: "ReactJS",
-            iconifyClass: "logos-react",
+            name: "Electron",
+            iconifyClass: "devicon:electron",
           },
           {
-            name: "NodeJs",
-            iconifyClass: "logos-nodejs",
+            name: "Csharp",
+            iconifyClass: "devicon:csharp",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/rajmahadev8/Fin-Split",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
+     
       ],
     },
     {
       id: "4",
-      name: "Emosic",
-      url: "https://github.com/kevalvavaliya/Emosic",
+      name: "Digishop",
+      url: "https://www.digishop.tech/",
       description:
-        "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ", languages: [
+        "A new form in the digital world through the LINE platform, the most popular in this era, that will help you achieve your business goals effectively. \n ", languages: [
           {
-            name: "HTML5",
-            iconifyClass: "logos-html-5",
+            name: "Rust",
+            iconifyClass: "devicon:rust",
           },
           {
-            name: "CSS3",
-            iconifyClass: "logos-css-3",
+            name: "Graphql",
+            iconifyClass: "logos-graphql",
           },
           {
-            name: "Python",
-            iconifyClass: "logos-python",
+            name: "TypeScript",
+            iconifyClass: "skill-icons:typescript",
           },
-        ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Emosic",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/emosic",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "GameShop_Backend",
-      url: "https://github.com/AmineFouzai/GameShop_Backend",
-      description:
-        "GameShop is a platform where Gamers and Game Developers share their games this is its Backend API ", languages: [
           {
-            name: "Flutter",
-            iconifyClass: "logos-flutter",
+            name: "NextJs",
+            iconifyClass: "logos-nextjs",
           },
           {
             name: "NodeJs",
             iconifyClass: "logos-nodejs",
           },
           {
-            name: "Storyblok",
-            iconifyClass: "logos-storyblok-icon",
+            name: "React",
+            iconifyClass: "logos-react",
           },
+          {
+            name: "Linux",
+            iconifyClass: "devicon:linux"},
+            {
+              name: "AWS ",
+              iconifyClass: "logos-aws",
+            },
+          
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Fileblok",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
+     
+      ],
+    },
+    {
+      id: "5",
+      name: "Dieture",
+      url: "https://www.dieture.com/",
+      description:
+        "Get the best diet plans for weight loss from a renowned dietician in Qatar. Discover effective keto diet plans and tasty meal plans for good health\n ", languages: [
+          {
+            name: "Flutter",
+            iconifyClass: "devicon:flutter",
+          },
+          {
+            name: "TypeScript",
+            iconifyClass: "skill-icons:typescript",
+          },
+          {
+            name: "Graphql",
+            iconifyClass: "logos-graphql",
+          },
+          {
+            name: "NodeJs",
+            iconifyClass: "logos-nodejs",
+          },
+          {
+            name: "React",
+            iconifyClass: "logos-react",
+          },
+          {
+            name: "Linux",
+            iconifyClass: "devicon:linux"},
+            {
+              name: "AWS ",
+              iconifyClass: "logos-aws",
+            },
+        ],
+      links: [
+        
       ],
     },
     {
       id: "6",
-      name: "PygRPC",
-      url: "https://github.com/AmineFouzai/PygRPC",
+      name: "ZenFeat",
+      url: "https://www.linkedin.com/company/zenfeat?originalSubdomain=ca",
       description:
-        "server implementation using gRPC tech ", languages: [
+        "We are a platform for chefs & cooks to express their culinary adventures, skills, and experiences all in one place .\n", languages: [
           {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
+            name: "Flutter",
+            iconifyClass: "devicon:flutter",
           },
           {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
+            name: "TypeScript",
+            iconifyClass: "skill-icons:typescript",
           },
           {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
+            name: "Firebase",
+            iconifyClass: "logos-firebase",
+          },
+          {
+            name: "NodeJs",
+            iconifyClass: "logos-nodejs",
+          },
+          {
+            name: "Azure",
+            iconifyClass: "logos-azure",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://bauddhikgeeks.co/",
-          iconifyClass: "mdi:web",
-        },
+      
       ],
     },
     {
       id: "7",
-      name: "astrobuild-api",
-      url: "https://github.com/AmineFouzai/astrobuild-api/tree/main",
+      name: "Money Go",
+      url: "https://money-go.com/",
       description:
-        "Prototype of a collaboration tool between stakeholders for building software projects (Backend)  ", languages: [
+        "MoneyGo guarantees maximum security and anonymity for your personal and financial data. We have developed a cutting-edge data protection system using SSL/TLS ...\n  ", languages: [
           {
-            name: "Flask",
-            iconifyClass: "logos-flask",
+            name: "Flutter",
+            iconifyClass: "devicon:flutter",
+          },
+       
+          {
+            name: "Firebase",
+            iconifyClass: "logos-firebase",
           },
           {
             name: "Python",
             iconifyClass: "logos-python",
           },
           {
-            name: "HTML5",
-            iconifyClass: "logos-html-5",
+            name: "Django",
+            iconifyClass: "logos-django",
           },
           {
-            name: "CSS3",
-            iconifyClass: "logos-css-3",
-          },
-          {
-            name: "MongoDB",
-            iconifyClass: "logos-mongodb-icon",
+            name: "Azure",
+            iconifyClass: "logos-azure",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/abhigoyani/votechain",
-          iconifyClass: "ri:github-fill",
-        },
+    
       ],
     },
     {
       id: "8",
-      name: "WADOG2",
-      url: "https://github.com/AmineFouzai/WADOG2",
+      name: "S.T.A.L.K.E.R.S Mobile Game (Backend and CI/CD)",
+      url: "https://play.google.com/store/apps/details?id=com.TimeLapse.STALKERS&hl=en_ZA",
       description:
-        "Powerfull Trojan Tool for generating exploitable and executable undetectable payloads on windows.", languages: [
+        "Stalkers is an online third-person shooter multiplayer mobile game. The game gathers up to 40 players who confront on an uncharted island.\n", languages: [
           {
-            name: "ReactJS",
-            iconifyClass: "logos-react",
+            name: "C++",
+            iconifyClass: "devicon:cplusplus",
+          },
+       
+          {
+            name: "Docker",
+            iconifyClass: "devicon:docker",
           },
           {
-            name: "NodeJS",
-            iconifyClass: "logos-nodejs",
+            name: "Azure Play Fab",
+            iconifyClass: "devicon:azure",
           },
+       
           {
-            name: "MedusaJS",
-            iconifyClass: "logos-medusa-icon",
+            name: "Azure",
+            iconifyClass: "logos-azure",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/e-commerce-frontend",
-          iconifyClass: "ri:github-fill",
-        },
+      
       ],
     },
     {
       id: "9",
-      name: "CompressImagesApi",
-      url: "https://github.com/AmineFouzai/CompressImagesApi",
+      name: "El-Mall",
+      url: "https://elmall.com.tn/",
       description:
-        "This platform enables users to manipulate images size in real time ", languages: [
+        "There is something for everyone, there is something for everyone and for every budget. In addition, El-Mall is the guarantee of reliable, fast and secure delivery...\n", languages: [
           {
             name: "NodeJS",
             iconifyClass: "logos-nodejs",
+          },
+          {
+            name: "Graphql",
+            iconifyClass: "logos-graphql",
+          },
+          {
+            name: "NextJs",
+            iconifyClass: "logos-nextjs",
+          },
+          {
+            name: "MedusaJS",
+            iconifyClass: "logos-medusa",
           },
           {
             name: "TypeScript",
@@ -778,40 +751,60 @@ const projects = {
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/node-blockchain",
-          iconifyClass: "ri:github-fill",
-        },
+     
       ],
     },
     {
       id: "10",
-      name: "astroback",
+      name: "Float Browser Extension ",
       url: "https://github.com/harikanani/personal-portfolio",
       description:
-        " ", languages: [
+        " Rated the #1 Resource Management Software on G2.  a wrapper for chrome to facilitate access .\n", languages: [
           {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
+            name: "TypeScript",
+            iconifyClass: "skill-icons:typescript",
           },
           {
-            name: "NodeJS",
-            iconifyClass: "logos-nodejs",
+            name: "Openapi",
+            iconifyClass: "devicon:openapi",
           },
           {
-            name: "Repl.it",
-            iconifyClass: "logos-replit-icon",
+            name: "Azure",
+            iconifyClass: "devicon:azuredevops",
+          },
+          {
+            name: "Azure",
+            iconifyClass: "logos-azure",
           },
         ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/personal-portfolio",
-          iconifyClass: "ri:github-fill",
-        },
+    
       ],
     },
+    {
+      id: "10",
+      name: "Azure Cloud / CI/CD ",
+      url: "https://cielocosta.com/",
+      description:
+        "Internal client work related to Ci/Cd in Devops and Azure services \n ", languages: [
+          {
+            name: "Azure Devops",
+            iconifyClass: "devicon:azuredevops",
+          },
+          {
+            name: "Azure",
+            iconifyClass: "logos-azure",
+          },
+          {
+            name: "Azure SQL Database",
+            iconifyClass: "devicon:azuresqldatabase",
+          },
+        ],
+      links: [
+      
+      ],
+    },
+    
 
   ],
 };

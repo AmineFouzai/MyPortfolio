@@ -19,7 +19,7 @@ export default function ProjectCard(props: { repo: any; theme?: any }) {
     padding: "2rem",
     cursor: "pointer",
     borderRadius: "5px",
-    height: "100%",
+    height: "230px",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `${props?.theme?.imageDark} 0 2px 15px`,
