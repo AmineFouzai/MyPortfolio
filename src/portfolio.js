@@ -21,9 +21,9 @@ const greeting = {
   full_name: "Mohamed Amine Fouzai",
   subTitle: "Super Stack Developer / Solution Developer 🔥. Your Go To.",
   resumeLink:
-    "https://drive.google.com/file/d/1vdLDTWgP0CLEuWD9P4HjiyfUvGSx-kpB/view?usp=sharing",
+    "https://drive.google.com/file/d/1B7ELqCkm7Ip8h8DMdiEXlkBa_hQOoc1k/view?usp=sharing",
   coverLetterLink:
-    "https://drive.google.com/file/d/1NSJyalv88disa-ou0xMG-Ltq25mHQygo/view?usp=sharing",
+    "https://drive.google.com/file/d/1NLPwCyzUoGEdiGAv8Q4RKauJu8N--9xv/view?usp=sharing",
   mail: "mailto:mohamed.amine.fouzai@gmail.com",
 };
 

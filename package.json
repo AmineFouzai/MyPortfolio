@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "author": "Fouzai M Amine",
   "private": true,
   "homepage": "https://aminefouzai.github.io/MyPortfolio/",
   "dependencies": {
