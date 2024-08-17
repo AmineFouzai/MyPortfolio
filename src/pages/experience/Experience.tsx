@@ -9,7 +9,6 @@ import ExperienceImg from "./ExperienceImg";
 
 function Experience(props: { theme: { text: any; secondaryText: any; }; setTheme: (arg0: string) => void; onToggle: Function; }) {
   const theme = props.theme;
-  console.log(props.setTheme);
   return (
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />

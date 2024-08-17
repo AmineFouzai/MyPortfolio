@@ -9,7 +9,7 @@ function ExperienceAccordion(props: { theme: any; sections: any[]; }) {
   return (
     <div className="experience-accord">
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
-        <Accordion onChange={({ expanded }) => console.log(expanded)} initialState={{ expanded: [...props.sections.map((section) => { return section['title'] })] }}>
+        <Accordion onChange={({ }) => { }} initialState={{ expanded: [...props.sections.map((section) => { return section['title'] })] }}>
           {props.sections.map((section) => {
             return (
               <Panel
