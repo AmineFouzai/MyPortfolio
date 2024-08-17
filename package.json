@@ -1,0 +1,86 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "author": "Fouzai M Amine",
+  "private": true,
+  "homepage": "https://aminefouzai.github.io/MyPortfolio/",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "baseui": "^14.0.0",
+    "bootstrap": "^5.3.3",
+    "fs": "0.0.1-security",
+    "gh-pages": "^6.1.1",
+    "glamor": "^2.20.40",
+    "global": "^4.4.0",
+    "node-fetch": "^3.3.2",
+    "node-sass": "^9.0.0",
+    "prettier-package-json": "^2.8.0",
+    "react": "^18.3.1",
+    "react-animated-cursor": "^2.11.2",
+    "react-awesome-reveal": "^4.2.14",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-ga": "^3.3.1",
+    "react-icons": "^5.2.1",
+    "react-is": "^18.3.1",
+    "react-rounded-image": "^2.0.15",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.3",
+    "styled-components": "^6.1.12",
+    "styletron-engine-atomic": "^1.6.2",
+    "styletron-react": "^6.1.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@iconify/icons-logos": "^1.2.36",
+    "@iconify/react": "^5.0.2",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "prettier": "3.3.3",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.json": "prettier-package-json --write",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
