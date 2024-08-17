@@ -339,7 +339,7 @@ const experience = {
       ],
     },
     {
-      title: "Side Huslte / Events",
+      title: "Volunteering / Events",
       experiences: [
         {
           title: "WE Hack 1.0 - Web & Mobile IT Innovation",
