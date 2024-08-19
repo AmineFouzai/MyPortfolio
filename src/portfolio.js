@@ -757,7 +757,7 @@ const projects = {
     {
       id: "10",
       name: "Float Browser Extension ",
-      url: "https://github.com/harikanani/personal-portfolio",
+      url: "https://www.float.com/",
       description:
         " Rated the #1 Resource Management Software on G2.  a wrapper for chrome to facilitate access .\n", languages: [
           {
