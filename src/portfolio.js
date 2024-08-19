@@ -503,7 +503,7 @@ const projects = {
     {
       id: "2",
       name: "Bitaqa",
-      url: "https://github.com/AmineFouzai/Ballon_Dorz",
+      url: "https://www.bitaqa.tn/",
       description:
         "A simple tap ,Connections Impressive , Instantly share your social networks and contact details in a convenient and elegant way\n ", languages: [
           {
