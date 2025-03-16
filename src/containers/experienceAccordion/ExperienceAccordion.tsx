@@ -1,0 +1,33 @@
+import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
+import { Accordion, Panel } from "baseui/accordion";
+import "./ExperienceAccordion.css";
+import ExperienceCard from "../../components/cards/ExperienceCard/ExperienceCard";
+
+function ExperienceAccordion(props: { theme: any; sections: any[]; }) {
+  const theme = props.theme;
+
+  return (
+    <div className="experience-accord">
+      <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
+        <Accordion onChange={({ }) => { }} initialState={{ expanded: [...props.sections.map((section) => { return section['title'] })] }}>
+          {props.sections.map((section) => {
+            return (
+              <Panel
+                title={section["title"]}
+                key={section["title"]}
+              >
+                {section["experiences"].map((experience: any) => {
+                  return (
+                    <ExperienceCard experience={experience} theme={theme} />
+                  );
+                })}
+              </Panel>
+            );
+          })}
+        </Accordion>
+      </ThemeProvider>
+    </div>
+  );
+}
+
+export default ExperienceAccordion;
