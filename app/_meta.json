@@ -17,7 +17,7 @@
 
   {
     "text": "Contact and Resume",
-    "link": "/contact_resume/",
-    "activeMatch": "/contact_resume/"
+    "link": "/contact_resume/contact_resume",
+    "activeMatch": "/contact_resume/contact_resume"
   }
 ]

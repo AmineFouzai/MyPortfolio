@@ -13,11 +13,47 @@ export default defineConfig({
     strict: true
   },
   themeConfig: {
+  
     sourceCodeText:"text",
     footer: {
       message:
         'Made with ❤️ by Fouzai Mohamed Amine',
     },
+    nav: [
+      {
+        "text": "Home",
+        "link": "/",
+        "activeMatch": "/",
+        "position":"left"
+      },
+      {
+        "text": "Education and Certifications",
+        "link": "/education_certfications/",
+        "activeMatch": "/education_certfications/",
+        "position":"left"
+      },
+      {
+        "text": "Work Experience",
+        "link": "/experience/",
+        "activeMatch": "/experience/",
+         "position":"left"
+      },
+      {
+        "text": "Projects",
+        "link": "/projects/",
+        "activeMatch": "/projects/",
+         "position":"left"
+      },
+    
+      {
+        "text": "Contact and Resume",
+        "link": "/contact_resume/contact_resume",
+        "activeMatch": "/contact_resume/contact_resume",
+         "position":"right"
+      }
+      
+    ],
+    searchPlaceholderText:"Search Any Where",
     enableAppearanceAnimation:true,
     enableContentAnimation:true,
     enableScrollToTop:true,
