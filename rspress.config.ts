@@ -3,8 +3,9 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'app'),
-  title: 'Mohamed Amine Fouzai | Home',
+  title: 'Mohamed Amine Fouzai | Portfolio',
   icon: '/me.png',
+  base:"/",
   logo: {
     light: '/me.png',
     dark: '/me.png',
@@ -20,35 +21,36 @@ export default defineConfig({
         'Made with ❤️ by Fouzai Mohamed Amine',
     },
     nav: [
+    
       {
-        "text": "Home",
-        "link": "/",
-        "activeMatch": "/",
-        "position":"left"
-      },
-      {
-        "text": "Education and Certifications",
-        "link": "/education_certfications/",
-        "activeMatch": "/education_certfications/",
-        "position":"left"
+        "text": "Education & Cerfications",
+        "link": "/pages/education",
+        "activeMatch": "/pages/education",
+        "position":"right"
       },
       {
         "text": "Work Experience",
-        "link": "/experience/",
-        "activeMatch": "/experience/",
-         "position":"left"
+        "link": "/pages/experience/",
+        "activeMatch": "/pages/experience/",
+         "position":"right"
       },
       {
-        "text": "Projects",
-        "link": "/projects/",
-        "activeMatch": "/projects/",
-         "position":"left"
+        "text": "Portfolio Pieces",
+        "link": "/pages/projects/",
+        "activeMatch": "/pages/projects/",
+         "position":"right"
       },
     
       {
-        "text": "Contact and Resume",
-        "link": "/contact_resume/contact_resume",
-        "activeMatch": "/contact_resume/contact_resume",
+        "text": "Contact & Resume",
+        "link": "/pages/contact",
+        "activeMatch": "/pages/contact",
+         "position":"right"
+      },
+      {
+        "text": "Blog",
+        "link": "/pages/contact",
+        "activeMatch": "/pages/contact",
          "position":"right"
       }
       
