@@ -1,1 +1,9 @@
-["education"]
+[
+    {
+        "type": "file",
+        "name": "education",
+        "label": "Education",
+        "collapsible": true,
+        "collapsed": false
+    }
+]

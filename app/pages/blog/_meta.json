@@ -1,1 +1,9 @@
-["blog"]
+[
+    {
+        "type": "file",
+        "name": "blog",
+        "label": "Blog",
+        "collapsible": true,
+        "collapsed": false
+    }
+]

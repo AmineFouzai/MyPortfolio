@@ -1,1 +1,9 @@
-["experience"]
+[
+    {
+        "type": "file",
+        "name": "experience",
+        "label": "Experience",
+        "collapsible": true,
+        "collapsed": false
+    }
+]

@@ -1,1 +1,9 @@
-["projects"]
+[
+    {
+        "type": "file",
+        "name": "projects",
+        "label": "Projects",
+        "collapsible": true,
+        "collapsed": false
+    }
+]

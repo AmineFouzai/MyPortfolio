@@ -1,1 +1,9 @@
-["contact"]
+[
+    {
+        "type": "file",
+        "name": "contact",
+        "label": "Contact",
+        "collapsible": true,
+        "collapsed": false
+    }
+]
