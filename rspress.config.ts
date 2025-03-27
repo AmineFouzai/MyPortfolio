@@ -66,27 +66,27 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/AmineFouzai',
       },
       {
         icon: 'linkedin',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://www.linkedin.com/in/amine-fouzai/',
       },
       {
         icon: 'X',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://x.com/Fouzai_M_Amine',
       },
       {
-        icon: 'youtube',
+        icon: 'facebook',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://www.facebook.com/mohamedamine.fouzai.9003',
       },
       {
         icon: 'discord',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://discordapp.com/users/1354251683345076254',
       },
     ],
   },
